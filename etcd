@@ -1,0 +1,21 @@
+ETCD
+etcd is used to store data in key value format. I t stores data aboout the following 
+* Nodes
+* Pods
+* Configs
+* Secrets
+* Accounts
+* Roles
+* Bindings
+* Other                    
+
+Kube APi server is the central part in Master nodes which takes care of the following (When request hits first it reaches Kube server  only)
+* Authenticate User
+*Validate Request
+* Retrieve Data
+* Update ETCD
+* SCheduler
+* Kubelet
+Pod
+Pod is a single instance of your application.
+
