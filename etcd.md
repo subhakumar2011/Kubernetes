@@ -16,10 +16,11 @@ Kube APi server is the central part in Master nodes which takes care of the foll
 * Update ETCD
 * SCheduler
 * Kubelet
+  
 Pod
 Pod is a single instance of your application.
 pod can have container o fyour application and also it can accomadate a helper container if needed to support your application. So now both containers are in same pod and they share the same network and volumes. they are in one to one relationship.
-kubectl run nignix What this command does are below
+kubectl run nignix --image ngnix( What this command does are below)
 
 created a pod automatically
 deploys our container in the pod pulls  image from docker hub.
